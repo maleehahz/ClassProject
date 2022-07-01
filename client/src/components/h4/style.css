@@ -1,0 +1,28 @@
+/* color palette */
+:root {
+	--black-shadows: #baa7b0ff;
+	--heliotrope-gray: #b2abbfff;
+	--cadet-blue-crayola: #b1b5c8ff;
+	--beau-blue: #bfd5e2ff;
+	--powder-blue: #c7ebf0ff;
+}
+
+#h4 {
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: bold;
+    color: var(--black-shadows);
+    position: fixed;
+    top: 30px;
+    width: 100%;
+    min-height: 30px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+svg {
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
+}

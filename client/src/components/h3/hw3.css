@@ -1,0 +1,42 @@
+/* color palette */
+:root {
+	--black-shadows: #baa7b0ff;
+	--heliotrope-gray: #b2abbfff;
+	--cadet-blue-crayola: #b1b5c8ff;
+	--beau-blue: #bfd5e2ff;
+	--powder-blue: #c7ebf0ff;
+}
+
+.Obj {
+    display: flex; 
+    flex-flow: column wrap; 
+    justify-content: center;
+}
+
+#header {
+    background-color: var(--cadet-blue-crayola);
+    text-align: center;
+    color: white;
+}
+
+#subHeader {
+    background-color: var(--beau-blue);
+}
+
+#h3 {
+    background-color: var(--powder-blue);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#head2 {
+    color: var(--heliotrope-gray);
+}
+
+li {
+    list-style-type: '>>';
+    padding-inline-start: 1ch;
+}
+
+li::marker {
+    color: var(--heliotrope-gray);
+}

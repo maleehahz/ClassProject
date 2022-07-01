@@ -1,0 +1,56 @@
+/* color palette */
+:root {
+	--black-shadows: #baa7b0ff;
+	--heliotrope-gray: #b2abbfff;
+	--cadet-blue-crayola: #b1b5c8ff;
+	--beau-blue: #bfd5e2ff;
+	--powder-blue: #c7ebf0ff;
+}
+
+.flex-container {
+	display: flex;
+}
+
+.buttons {
+	flex-grow: 1;
+	text-align: center;
+}
+
+.link {
+	font-size: 24px;
+	padding: 32px 32px;
+	border-radius: 4px;
+	background-color: white;
+	border: 2px solid var(--beau-blue);
+}
+
+.link:hover {
+	background-color: var(--beau-blue);
+}
+
+.content {
+	color: white;
+	display: none;
+	padding: 50px;
+	text-align: center;
+}
+
+#imgHolder {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+footer {
+	display: flex;
+	flex-direction: row wrap;
+	justify-content: space-evenly;
+}
+
+footer {
+	background-color: var(--cadet-blue-crayola);
+	color: #ffffff;
+	text-align: center;
+}
+	

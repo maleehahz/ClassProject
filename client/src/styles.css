@@ -1,0 +1,44 @@
+#projLink {
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+#picH1, #picH3, #picH4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#picH2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 300px
+}
+
+#liz {
+    width:650px;
+    position:absolute; 
+    left:10px; 
+    top:300px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    width: 50%;
+}
+
+#me {
+    float:left;
+    height:20px;
+    width: 400px;
+}
+
+#skills {
+    float:left;
+    height:20px;
+    width:200px;
+}
